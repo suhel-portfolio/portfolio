@@ -1,0 +1,247 @@
+
+@font-face {
+    font-family: 'latolight';
+    src: url('../fonts/lato-light-webfont.woff2') format('woff2'),
+         url('../fonts/lato-light-webfont.woff') format('woff'),
+         url('../fonts/lato-light-webfont.svg#latolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    color: #171b1e;
+    font-family: 'latolight';
+}
+a:hover {
+    text-decoration: none;
+}
+.intro {
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+.logo img{
+    text-align: center;
+}
+ul {
+    padding-left: 0;
+}
+li {
+    list-style: none;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+.find-on-web ul{
+    margin-top: 40px;
+}
+/* Media Queries */
+@media screen and (max-width: 765px) {
+    .find-on-web {
+        display: none;
+    }
+}
+
+.find-on-web ul li{
+    display: block;
+    margin-bottom: 15px;
+    text-align: right;
+    text-transform: uppercase;
+    
+}
+
+.find-on-web ul li a{
+    padding: 5px;
+    font-size: 15px;
+    color: #171b1e;
+}
+
+.find-on-web ul li a:hover{
+    text-decoration: none;
+    border-bottom: dotted .5px #b3d4fc;
+}
+.section-title {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.section-title h1{
+    font-weight: 600;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.sec-mid-line {
+    width: 80px;
+    height: 1.5px;
+    background: #171b1e;
+}
+.about-text {
+    font-size: 21px;
+    line-height: 32px;
+    margin-bottom: 25px;
+}
+
+.about-text span{
+    font-weight: 600;
+    color: #222;
+    font-size: 19px;
+}
+
+.skills {
+    text-align: center;
+    margin-bottom: 25px;
+}
+.skills ul li{
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 25px;
+}
+
+
+.skill-set {
+    width: 100px;    
+    padding: 5px;
+    border-radius: 3px;
+    text-align: center;
+    border: dotted 1px #23d29b;
+    color: #222;
+    font-weight: 600;
+    letter-spacing: .5px;
+    font-size: 15px;
+}
+.section-outline {
+    width: 100%;
+    border-bottom: 1px dotted #b3d4fc;
+    margin-top: 35px;
+}
+
+
+.services {
+    margin-top: 60px;
+}
+
+.service-box {
+    border: 1px solid #32c5d2;
+    margin-bottom: 30px;
+    width: 98%;
+    
+}
+.service-box {
+  text-align: center;
+    position: relative;
+}
+.service-box img {
+    width: 35%;
+    
+}
+.service-box h4 {
+  text-transform: capitalize;
+  margin: 20px 0;
+  font-weight: 600;
+  font-size: 17px;
+}
+.service-box p {
+  font-size: 14px;
+    line-height: 21px;
+  color: #222;
+    padding: 8px;
+    font-weight: 600;
+    letter-spacing: .7px;
+}
+
+
+
+.item {
+    margin-bottom: 35px;
+}
+.item img{
+    width: 96%;
+    height: 200px;
+}
+.item p {
+    margin-top: 15px;
+    color: #171b1e;
+    font-size: 16px;
+}
+
+
+.contact {
+    background: #e3e3e3;
+    margin-top: 75px;
+}
+.contact h1 {
+    text-transform: uppercase;
+    font-size: 32px;
+}
+.footer-outline {
+    border-bottom: 1px dotted #b3d4fc;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.right-outline {
+    border-right: 1px dotted #b3d4fc;
+}
+.contact p {
+    font-size: 19px;
+    color: #222;
+}
+address ul{
+    margin-top: 25px;
+}
+address ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+address ul li a{
+    color: inherit;
+}
+
+.social-links ul li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 25px;
+}
+.leave-msg {
+    text-transform: uppercase;
+    font-size: 24px;
+}
+.contact-form ul li input, textarea{
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+}
+
+textarea {
+    height: 120px;
+    outline: none;
+}
+
+.submit-button {
+    width: 150px;
+    height: 42px;
+    margin-bottom: 50px;
+    border: none;
+    border-radius: 3px;
+    background: #8b9dc3;
+    font-size: 17px;
+    letter-spacing: .7px;
+    font-weight: 800;
+    color: #fff;
+    transition: background-color 1s ease;
+}
+
+.submit-button:hover {
+    border: 1px dotted #8b9dc3;
+    background: none;
+    color: #3b5998;
+}
+footer {
+    width: 100%;
+    padding: 15px;
+    background: #222;
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+}
+

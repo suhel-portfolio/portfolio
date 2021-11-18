@@ -1,0 +1,129 @@
+
+div.wrapper {
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+ul.slider {
+  letter-spacing: -4px;
+  list-style-type: none;
+  width: 300%;
+  overflow: hidden;
+  margin-left: 0px;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+    margin-bottom: 50px;
+}
+ul.slider li.slide {
+  letter-spacing: normal;
+  float: left;
+  width: calc(100%/3);
+  position: relative;
+}
+ul.slider li.slide div.info {
+  padding: 20px;
+  width: 100%;
+  position: absolute;
+  left: 0px;
+}
+
+ul.navigation {
+  list-style-type: none;
+  text-align: center;
+  letter-spacing: -4px;
+    width: 130px;
+    color: #ffffff;
+    font: 400 14px / 30px FontAwesome;
+    bottom: 0;
+    margin: 30px 0px;
+}
+
+ul.navigation li{
+    float: left;
+}
+
+.navigation {
+    float: right;
+}
+ul.navigation li {
+  display: inline-block;
+  letter-spacing: normal;
+}
+ul.navigation li a {
+  padding: 5px 20px;
+  display: block;
+  font-size: 18px;
+    background-color: #51b8f2;
+    color: #ffffff;
+    font: 400 14px / 30px FontAwesome;
+}
+ul.navigation li a:hover, ul.navigation li a.active {
+  background-color: #3f4b5d;
+  color: #FFF;
+}
+
+
+.slide-item {
+    position: relative;
+    width: 165px;
+    height: 165px;
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.slide-item img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 100;
+}
+.slide-item img:hover{
+    opacity: 0.1;
+}
+
+.slide-hov {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 200;
+    background-color: #12aef7;
+    color: #ffffff;
+    padding: 12px;
+    text-transform: uppercase;
+}
+
+
+.slide-hov h4{
+    color: #ffffff;
+    font: 700 18px Karla;
+}
+
+.slide-hov span{
+    color: #ffffff;
+    font: 400 18px Karla;
+}
+
+
+.slide-hov p{
+    text-transform: none;
+    color: #19638d;
+    font: 400 14px / 30px Karla;
+}
+
+.slide-hov ul li{
+    display: inline-block;
+    margin-right: 5px;
+    padding: 5px;
+}
+
+.slide-hov ul li a{
+    color: #ffffff;
+    font: 400 14px / 30px FontAwesome;
+}
+
+.slide-hov ul li a:hover{
+    cursor: pointer;
+}

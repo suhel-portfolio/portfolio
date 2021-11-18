@@ -1,0 +1,210 @@
+
+@font-face {
+    font-family: 'gotham_bookregular';
+    src: url('../fonts/gotham-book-webfont.eot');
+    src: url('../fonts/gotham-book-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/gotham-book-webfont.woff2') format('woff2'),
+         url('../fonts/gotham-book-webfont.woff') format('woff'),
+         url('../fonts/gotham-book-webfont.ttf') format('truetype'),
+         url('../fonts/gotham-book-webfont.svg#gotham_bookregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    font-family: 'gotham_bookregular', arial, sans-serif;
+}
+
+.top {
+    background: #fdfdfd;
+}
+.top-bar {
+    overflow: hidden;
+    margin: 20px 0px;
+    line-height: 64px;
+}
+
+.logo {
+ float: left;
+}
+
+.top-bar-search input {
+    margin-left: 50px;
+    border: none;
+    text-align: center;
+    line-height: 35px;
+    letter-spacing: 1px;
+}
+#black-placeholder::-webkit-input-placeholder { /* WebKit browsers */
+    color:    black;
+}
+#black-placeholder:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    black;
+   opacity:  1;
+}
+#black-placeholder::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    black;
+   opacity:  1;
+}
+#black-placeholder:-ms-input-placeholder { /* Internet Explorer 10+ */
+   color:    black;
+}
+
+.top-bar-search button {      
+    background: none;
+    border: none;
+    
+}
+
+.search-button {
+    width: 35px;
+    height: 36px;
+}
+
+.notification-area {
+    float: right;
+}
+
+.notify-icons ul {
+    padding: 0;
+}
+
+.notify-icons ul li{
+    display: inline-block;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.user-name {
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    font-weight: 700;
+    color: black;
+}
+
+
+.form-body {
+    background: #f6f6f7;
+}
+
+.form-title {
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    margin: 50px 0px;
+    position: relative;
+    overflow: hidden;
+}
+
+.title-bottom {
+    width: 80px;
+    height: 6px;
+    background: #ec4b39;
+    position: absolute;
+    top: 25px;
+    z-index: 100;
+}
+
+.bottom-line {
+    width: 100%;
+    height: 2px;
+    background: #939393;
+    position: absolute;
+    top: 7.5px;
+    clear: both;
+}
+
+label {
+    display: block;
+}
+
+.form-body input {
+    margin-bottom: 25px;
+    margin-top: 25px;
+    margin-right: 10px;
+    padding-left: 15px;
+    border-radius: 5px;
+    height: 50px;
+    font-size: 12px;
+    border: 2px solid #919191;
+    outline: none;
+}
+
+.form-body lebel {
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+}
+
+.big-box {
+    width: 40%;
+    font-size: 14px!important;
+}
+
+.small-box {
+    margin-bottom: inherit!important;
+    margin-top: 10px!important;
+}
+
+.collapse-experience {
+    width: 58px;
+    height: 58px;
+    line-height: 58px;
+    border-radius: 100px;
+    font-size: 28px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    float: left;
+}
+
+.experience-title {
+    margin-top: 45px;
+    margin-left: 65px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+}
+
+.collapse-school {
+    background: none;
+    margin: 15px 0px;
+    border: none;
+    border-radius: none;
+    color: #ec4b39;
+}
+
+.collapse-school:hover {
+    color: #ec4b39;
+}
+
+#about-details{
+    width: 40%;
+    height: 160px!important;
+    margin: 25px 0px;
+    padding: 5px 0px 0px 12px;
+    letter-spacing: .2px;
+    border-radius: 5px;
+    font-size: 14px;
+    border: 2px solid #919191;
+    outline: none;
+}
+
+
+.button-save, .button-reset {
+    background: #ec4b39;
+    color: white;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 5px;
+    height: 45px;
+    font-weight: 700;
+}
+
+.button-reset {
+    margin-top: 20px;
+    background: #ececec;
+    color: #ec4b39;
+    border: 1px solid #bdbdbe;
+    margin-bottom: 60px;
+}

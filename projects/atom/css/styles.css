@@ -1,0 +1,498 @@
+/*  */
+
+@font-face {
+    font-family: 'latoblack';
+    src: url('../fonts/lato-black-webfont.eot');
+    src: url('../fonts/lato-black-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/lato-black-webfont.woff2') format('woff2'), url('../fonts/lato-black-webfont.woff') format('woff'), url('../fonts/lato-black-webfont.ttf') format('truetype'), url('../fonts/lato-black-webfont.svg#latoblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'latoregular';
+    src: url('../fonts/lato-regular-webfont.eot');
+    src: url('../fonts/lato-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/lato-regular-webfont.woff2') format('woff2'), url('../fonts/lato-regular-webfont.woff') format('woff'), url('../fonts/lato-regular-webfont.ttf') format('truetype'), url('../fonts/lato-regular-webfont.svg#latoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'latobold';
+    src: url('../fonts/lato-bold-webfont.eot');
+    src: url('../fonts/lato-bold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/lato-bold-webfont.woff2') format('woff2'), url('../fonts/lato-bold-webfont.woff') format('woff'), url('../fonts/lato-bold-webfont.ttf') format('truetype'), url('../fonts/lato-bold-webfont.svg#latobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: 'latoregular', arial, sans-serif;
+}
+.section-header-dark {
+    text-align: center;
+    color: #333333;
+}
+.section-header-dark h1 {
+    font-family: 'latoblack', arial, sans-serif;
+    font-size: 26px;
+    letter-spacing: .8px;
+    margin-bottom: 15px;
+}
+.section-header-light {
+    text-align: center;
+    color: white;
+}
+.section-header-light h1 {
+    font-family: 'latoblack', arial, sans-serif;
+    font-size: 26px;
+    letter-spacing: .8px;
+    margin-bottom: 15px;
+}
+.sub-title {
+    font-family: 'latoregular', arial, sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #999999;
+    line-height: 24px;
+}
+.sub-title-light {
+    font-family: 'latoregular', arial, sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: white;
+    line-height: 24px;
+}
+.hexagon {
+    background: url(../image/section-top-icon.png) no-repeat center;
+    width: 100px;
+    margin: auto;
+    height: 112px;
+    line-height: 120px;
+    color: #33afe5;
+    font-family: 'latoblack', arial, sans-serif;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-size: 40px;
+}
+.hexagon-light {
+    background: url(../image/section-top-icon-light.png) no-repeat center;
+    width: 100px;
+    margin: auto;
+    height: 112px;
+    line-height: 120px;
+    font-size: 40px;
+    color: white;
+    font-family: 'latoblack', arial, sans-serif;
+    margin-top: 60px;
+    margin-bottom: 60px;
+   
+}
+
+.top-hexa {
+    font-size: 80px;
+    line-height: 100px;
+}
+/* SECTIONS */
+
+.dark-text {
+    color: #333333;
+}
+.white-text {
+    color: #ffffff;
+}
+.gray-text {
+    color: #999999;
+}
+.header {
+    background: url(../image/header-bg.jpg) no-repeat center;
+    background-size: cover;
+    overflow: hidden;
+}
+.client ul,
+.portfolio-nav ul,
+.price-brief ul,
+footer ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+.client li,
+.portfolio-nav li,
+footer li {
+    display: inline-block;
+    margin-left: 5px;
+}
+.icon-bar {
+    background: white!important;
+}
+.main-nav a {
+    color: white;
+    font-family: 'latoregular', arial, sans-serif;
+    font-size: 16px!important;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+.main-nav a:hover {
+    text-decoration: none;
+    background: #245b73!important;
+    border-radius: 5px!important;
+}
+.slider-content {
+    margin-top: 250px;
+    margin-bottom: 200px;
+}
+.slider-content h1 {
+    font-family: 'latobold', arial, sans-serif;
+    font-size: 34px;
+    line-height: 40px;
+}
+.slider-content p {
+    font-size: 22px;
+    letter-spacing: 1px;
+    font-family: 'latoregular', arial, sans-serif;
+}
+.client-bg {
+    background: #f0f0f0;
+}
+.client {
+    text-align: center;
+}
+.client ul {
+    margin-bottom: 0!important;
+    padding-bottom: 0!important;
+}
+.client ul li:hover {
+    background: #f7f7f7;
+}
+.about {
+    margin-bottom: 110px;
+}
+.about-content {
+    margin-top: 100px;
+    overflow: hidden;
+}
+.content-box {
+    border-radius: 5px;
+}
+.item-icon {
+    font-size: 50px;
+    color: #2ea8fa;
+    float: left;
+    margin-top: 26px;
+    margin-left: 10px;
+}
+.content-details {
+    margin-left: 70px;
+    margin-top: 26px;
+}
+.content-title {
+    color: #3399cc;
+    font-family: 'latoregular', arial, sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-bottom: 18px;
+}
+.content-brief {
+    color: #cccccc;
+    font-size: 16px;
+    letter-spacing: .8px;
+    margin-bottom: 28px;
+}
+.content-box:hover {
+    cursor: pointer;
+    background: #f7f7f7;
+}
+.product {
+    background: #f0f0f0;
+}
+.product-counter {
+    border: 2px solid #e0e0e0;
+    padding-bottom: 40px;
+}
+.counter {
+    font-size: 52px;
+    color: #00ccff;
+}
+.product-icon {
+    margin-top: 35px;
+    margin-bottom: 65px;
+    font-size: 70px;
+    color: #00ccff;
+}
+.product-counter p {
+    font-size: 22px;
+    letter-spacing: 1px;
+    color: #999999;
+}
+.product-counter:hover {
+    cursor: pointer;
+    background: #f5f5f5;
+}
+.portfolio {
+    background: #f0f0f0;
+    overflow: hidden;
+}
+.portfolio-area {
+    margin-bottom: 125px;
+    margin: auto;
+}
+
+.portfolio-nav ul {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 65px;
+    margin-bottom: 65px;
+    font-size: 18px;
+    font-family: 'latoregular', arial, sans-serif;
+}
+.portfolio-nav ul li {
+    margin-top: 40px;
+    
+}
+.portfolio-nav a {
+    color: #999999;
+    text-decoration: none;
+    padding: 15px;
+    border: 1px solid #999999;
+}
+.portfolio-nav a:hover {
+    background: #33afe5;
+    color: white;
+    border: none;
+}
+
+
+.portfolio-item ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px 20px 0px;
+    width: 270px;
+}
+
+
+.pricing {
+    background: #f0f0f0;
+    margin-top: 30px;
+}
+.pricing-table {
+    margin-top: 110px;
+    margin-bottom: 110px;
+}
+
+.pricing-table ul li {
+    display: inline-block;
+    
+}
+.table {
+    width: 290px;
+    background: white;
+    border: 2px solid #cccccc;
+    text-align: center;
+    margin-left: 0!important;
+    padding-left: 0!important;
+    position: relative;
+    overflow: hidden;
+}
+.table-header {
+    font-family: 'latobold', arial, sans-serif;
+    color: #ff0000;
+    text-transform: uppercase;
+    line-height: 60px;
+    font-size: 22px;
+}
+.table-header:hover {
+    border-bottom: 5px solid #cccccc;
+}
+
+.popular-tag {
+    position: relative;
+}
+
+.corner-img {
+    position: absolute;
+    top: 0;
+    margin-left: 50px;
+}
+.midline {
+    width: 80%;
+    margin: auto;
+    border-bottom: 2px solid #cccccc;
+}
+.price-brief p {
+    font-family: 'latoregular', arial, sans-serif;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.price {
+    font-family: 'latobold', arial, sans-serif;
+    color: black!important;
+    font-size: 18px!important;
+    font-weight: bold;
+}
+.price-button {
+    width: 90px;
+    height: 30px;
+    margin: auto;
+    margin-top: 35px;
+    margin-bottom: 25px;
+    background: none;
+    border: 1px solid #696969;
+    color: #333333;
+    font-family: 'latobold', arial, sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.price-button:hover {
+    background: #2ea8fa;
+}
+.testimonial {
+    background: url(../image/testimonial/testimonia-bg.jpg) no-repeat center;
+    background-size: cover;
+}
+.margin-bottom {
+    margin-bottom: 165px;
+}
+.comment-box {
+    background: white;
+    border-radius: 5px;
+    margin-top: 80px;
+    overflow: hidden;
+}
+.comment-box p {
+    padding: 30px 20px;
+    font-family: 'latoregular', arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #666666;
+}
+.comment-box span {
+    color: #3399cc;
+}
+.comment-box img {
+    margin: 20px;
+    float: left;
+}
+.client-name {
+    font-family: 'latoregular', arial, sans-serif;
+    font-size: 16px!important;
+    color: #3399cc!important;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.client-name span {
+    font-size: 13px;
+    font-weight: 300;
+    color: #c2c5c5;
+}
+.good-bye {
+    background: black;
+    overflow: hidden;
+}
+.block-text,
+.block-button {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.block-text {
+    font-family: 'latoregular', arial, sans-serif;
+    color: #c2c5c5;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+.block-button {
+    height: 50px;
+    background: #00ccff;
+    border-radius: 5px;
+    color: #333333;
+    font-family: 'latoregular', arial, sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    border: none;
+    float: right;
+}
+.form {
+    margin-top: 145px;
+    overflow: hidden;
+   
+}
+.form input {
+    width: 100%;
+    height: 50px;
+    padding: 0 15px;
+    font-family: 'latobold', arial, sans-serif;
+    font-size: 14px;
+    color: #999999;
+    border: 1px solid #cccccc;
+    outline: none;
+    border-radius: 5px;
+}
+textarea {
+    width: 100%;
+    height: 160px;
+    outline: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.btn-contact {
+    text-align: center;
+}
+.contact-button {
+    margin-top: 35px;
+    margin-bottom: 105px;
+    width: 220px;
+    height: 55px;
+    background: #33afe5;
+    color: white;
+    font-family: 'latobold', arial, sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    border: none;
+}
+.map {
+    position: relative;
+}
+iframe {
+    width: 100%;
+    height: 440px;
+    margin-bottom: 40px;
+}
+.location {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background: rgba(49, 171, 253, .8);
+    position: absolute;
+    top: 350px;
+    margin-bottom: 30px;
+    font-family: 'latoregular', arial, sans-serif;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+footer {
+    margin-bottom: 100px;
+    font-size: 18px;
+    color: #666666;
+}
+footer ul {
+    padding-top: 15px;
+}
+footer li {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 100px;
+    border: none;
+    background: #2ea8fa;
+}
+footer li a {
+    color: white;
+    font-size: 26px;
+}
+
+
+
+@media (max-width: 700px) {
+    .block-button {
+        float: none;
+    }
+}

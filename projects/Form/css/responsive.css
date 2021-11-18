@@ -1,0 +1,25 @@
+@media screen and (max-width: 320px) { 
+.top-bar-search input {
+    margin-left: 0px;
+}
+    .notification-area {
+    float: inherit;
+}
+  
+}
+
+@media screen and (max-width: 800px) { 
+.form-body input {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-right: 10px;
+    
+}
+    .big-box {
+    width: 95%;
+    font-size: 11px!important;
+}
+    #about-details{
+    width: 95%;
+}
+}

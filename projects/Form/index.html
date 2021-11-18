@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <title></title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!-- TOP BAR -->
+    <section class="top">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+               <div class="top-bar">
+                <div class="logo">
+                    <a href="#">
+                        <img src="images/logo.png" alt="Logo">
+                    </a>
+                </div> <!-- end logo -->
+                <div class="top-bar-search">
+                    <input id="black-placeholder" type="search" placeholder="SEARCH PEOPLE"> 
+                    <button type="button">
+                    <img class="search-button" src="images/search-icon.png" alt="Search Button">
+                    </button>                     
+                    <div class="notification-area">
+                        <div class="notify-icons">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <img src="images/msg-icon.png" alt="Messages">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="images/alerm-icon.png" alt="Messages">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="images/people-icon.png" alt="Messages">
+                                    </a>
+                                </li>
+                                <li role="presentation" class="dropdown">
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">
+      <span class="user-name">Tom Cruise</span> <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu" role="menu">
+     
+    </ul>
+  </li>
+                            </ul>
+                        </div> <!-- end notify-icons -->
+                       
+                    </div> <!-- end notification-area -->
+                </div> <!-- end top-bar-search -->
+                </div> <!-- end top-bar -->
+            </div> <!-- end col-md-12 -->
+        </div> <!-- end row -->
+    </div> <!-- end container -->
+    </section>
+   
+    <!-- FORM --> 
+    
+    <section class="form-body">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <form action="#" method="post">
+                        <div class="form-title">
+                            <p>MY INFO</p>
+                            <div class="title-bottom"></div>
+                            <hr class="bottom-line">
+                        </div> <!-- end form-title -->
+                        
+                    <!-- MAIN FORM START -->
+                        <lebel for="first-name">First Name</lebel> <br>
+                        <input class="big-box" type="text" id="first-name" placeholder="Tom"> <br>
+                       
+                         <lebel for="last-name">Last Name</lebel> <br>
+                        <input class="big-box" type="text" id="last-name" placeholder="Cruise"> <br>
+                        
+                        <lebel for="work">Where do you work?</lebel> <br>
+                        <input type="text" id="work" placeholder="Apple">
+                        <input type="text" placeholder="Senior Designer">
+                        <input type="text" placeholder="Since 0.3/14">
+                        
+                        <br>
+                        
+                        <lebel for="experience">Previous Experiences</lebel> <br>
+                        <input class="small-box" type="text" id="experience" placeholder="Google">
+                        <input class="small-box" type="text" placeholder="Senior Designer">
+                        <input class="small-box" type="text" placeholder="02/13 - 03/14"> <br>
+                        <input class="small-box" type="text" placeholder="Amazon.com">
+                        <input class="small-box" type="text" placeholder="Designer">
+                        <input class="small-box" type="text" placeholder="02/12 - 03/13">
+                        
+                        <br>
+                          <div class="btn" data-toggle="collapse" data-target="#plus">
+                           <div class="collapse-experience"> 
+                           + 
+                           </div>
+                           <div class="experience-title">
+                               Add Experience
+                           </div>
+                           
+                        </div> <!-- end collapse-experience -->
+                        
+                        <br>
+                         <div id="plus" class="collapse in">
+                         <input class="small-box" type="text" id="experience" placeholder="Google">
+                        <input class="small-box" type="text" placeholder="Senior Designer">
+                        <input class="small-box" type="text" placeholder="02/13 - 03/14"> <br>
+                          </div> <!-- end collapse in -->
+                    <br>
+                    
+                   <lebel for="living">Where do you live</lebel> <br>
+                        <input class="big-box" type="text" id="living" placeholder="New York, New York, United States"> <br>
+                        
+                        <lebel for="about-details">Describe Yourself</lebel> <br>
+                        <textarea name="yourself" id="about-details">
+                        </textarea> 
+                        
+                        <br>
+                        
+                        <lebel for="education">Education</lebel> <br>
+                        <input class="small-box" type="text" id="education" placeholder="School 1">
+                        <input class="small-box" type="text" placeholder="Year">
+                        <input class="small-box" type="text" placeholder="Select Degree">
+                        
+                        <br>
+                        
+                        <input class="small-box" type="text" id="education" placeholder="School 2">
+                        <input class="small-box" type="text" placeholder="Year">
+                        <input class="small-box" type="text" placeholder="Select Degree">
+                        
+                        <br>
+                        
+                        <div class="btn collapse-school" data-toggle="collapse" data-target="#add-school">
+                        + Add a school
+                        
+                        </div> <!-- end collapse-experience -->
+                         <div id="add-school" class="collapse in">
+                         <input class="small-box" type="text" id="experience" placeholder="School 3">
+                        <input class="small-box" type="text" placeholder="Year">
+                        <input class="small-box" type="text" placeholder="Select Degree">
+                          </div> <!-- end collapse in -->
+                          <br>
+                    
+                <!-- BUTTONS -->
+                          <button type="submit" class="big-box button-save">
+                              SAVE
+                          </button>
+                          
+                          <br>
+                         
+                          <button type="reset" class="big-box button-reset">
+                              DELETE MY PROFILE
+                          </button>
+                    </form>
+                </div> <!-- end col-md-12 -->
+            </div> <!-- end row -->
+        </div> <!-- end container -->
+    </section>
+    
+    
+    <!-- jQuery -->
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/retina.min.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

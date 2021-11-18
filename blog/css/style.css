@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'kalpurush';
+    src: url('./fonts/kalpurush_1_alpha_ship-webfont.eot');
+    src: url('./fonts/kalpurush_1_alpha_ship-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/kalpurush_1_alpha_ship-webfont.woff2') format('woff2'),
+         url('./fonts/kalpurush_1_alpha_ship-webfont.woff') format('woff'),
+         url('./fonts/kalpurush_1_alpha_ship-webfont.svg#kalpurushregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    font-family: 'kalpurush';
+}
+.border_bottom {
+    border-bottom: 1px solid #e3e3e3;
+}
+.blog_title {
+    
+    margin: 15px 0px; 
+}
+.social-icons ul{
+    padding: 0;
+    margin: 15px 0px;
+    text-align: right;
+}
+.social-icons ul li{
+    font-size: 19px;
+    margin-left: 10px;
+    display: inline-block;
+}
+.social-icons ul li a{
+    padding: 5px;
+    color: #222;
+    background: #e3e3e3;
+    width: 40px;
+    height: 40px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+}
+.social-icons ul li a:hover{
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+.art_title {
+    margin-top: 25px;
+}
+.art_body {
+    border-top: 1px solid #e3e3e3;
+    margin: 25px 0px;
+    font-size: 21px;
+    text-align: justify;
+}
+.art_img img{
+    width: 100%;
+    margin: 5px 0px;
+}
+.pub_date {
+    font-size: 19px;
+}

@@ -1,0 +1,238 @@
+.home-header {
+    background: url(../image/home-bg.jpg) no-repeat center fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.about-header {
+    background: url(../image/fish-bg.jpg) no-repeat center fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.frozen-header {
+    background: url(../image/shrimps-bg.jpg) no-repeat center fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.fish-header {
+    background: url(../image/fish-bg.jpg) no-repeat center fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.squid-header {
+    background: url(../image/fish-bg.jpg) no-repeat center fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+.top-bar {
+    background: rgba(41,41,43, .8);
+    color: white;
+    height: 100px;
+}
+
+.logo  {
+    margin-top: 15px;
+}
+.logo a {
+    font-size: 35px;
+    font-weight: 700;
+    color: white;
+    font-style: italic;
+    letter-spacing: .8px;
+    text-decoration: none;
+}
+
+.logo span {
+    color: #bc202a;
+}
+
+.tagline {
+    font-style: normal;
+    color: #fff!important;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.social-links {
+    text-align: right;
+    
+}
+
+.social-links ul{
+    padding: 0;
+    margin-top: 15px;
+}
+.follow {
+    margin-right: 10px;
+    font-size: 12px;
+    letter-spacing: .8px;
+}
+
+.social-links ul li{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 5px;
+    background: #fff;
+    margin-right: 5px;
+}
+
+.social-links ul li a{
+    color: #000;
+    font-size: 12px;
+}
+
+/* === facebook hover style === */
+.social-links ul li:nth-child(2):hover{
+    background: #4d6daa;
+}
+
+.social-links ul li:nth-child(2):hover a{
+    color: white!important;
+}
+/* === twitter hover style === */
+.social-links ul li:nth-child(3):hover{
+    background: #51d6f7;
+}
+
+.social-links ul li:nth-child(3):hover a{
+    color: white!important;
+}
+/* === google+ hover style === */
+.social-links ul li:nth-child(4):hover{
+    background: #dc563b;
+}
+
+.social-links ul li:nth-child(4):hover a{
+    color: white!important;
+}
+
+.nav {
+    margin-top: 20px;
+}
+/* === nav === */
+.nav ul {
+    padding-left: 0;
+    float: right;
+}
+
+.nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.nav ul li a{
+   padding: 5px;
+    color: white;
+    letter-spacing: .8px;
+    font-size: 12px;
+}
+
+.nav ul li a:hover{
+    text-decoration: none;
+    color: #bc202a;
+}
+
+/* === article link === */
+.article-link-box{
+    margin-top: 400px;
+    margin-bottom: 50px;
+    width: 290px;
+    background: rgba(188, 32, 42, 0.7);
+    color: white;
+    font-size: 22px;
+    padding: 10px;
+    line-height: 26px;
+}
+
+.box-content {
+    margin-left: 20px;
+}
+
+.button-more {
+    border: none;
+    background: none;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: white;
+}
+
+
+/* === Single Content === */
+.single-content {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 12px;
+}
+
+.single-content:hover {
+    background: #bc202a;
+    color: white;
+    transition: all 1.5s ease;
+    cursor: pointer;
+}
+
+.single-content:hover .button-content {
+    background: #331f21;
+    transition: all 1.5s ease;
+    color: white;
+}
+
+.single-content img {
+    width: 100%;
+    height: 250px;
+}
+.button-content {
+    background: #bc202a;
+    color: white;
+    padding: 6px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    letter-spacing: .7px;
+    font-size: 10px;
+    border: none;
+}
+
+.content-box {
+    margin: 40px 0px 40px 0px;
+}
+
+/* === footer === */
+footer{
+    background: rgba(35, 31, 32, 0.7);
+    color: white;
+    font-size: 11px;
+    height: 60px;
+    line-height: 60px;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+/* === about us === */
+.about-article p{
+    margin: 20px 0px 50px 0px;
+}
+
+/* === frozen seafood === */
+.sea-caught ul {
+    padding-left: 20px;
+}
+
+.sea-caught img {
+    width: 60%;
+    
+}
